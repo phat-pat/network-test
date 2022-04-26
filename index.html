@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="gui">
+        <div style="display: flex">
+            <label for="packetLoss">Packet Loss (%): </label>
+            <input type="text" style="width: 15px" value="0" id="packetLoss">
+        </div>
+        <div style="display: flex">
+            <label for="packetLatency">Packet Latency (ms): </label>
+            <input type="text" style="width: 30px" value="0" id="latency">
+        </div>
+        <div id="packetsSent" style="margin-left: 2px">Packets Sent: 0</div>
+        <div id="packetsReceived" style="margin-left: 2px">Packets Received: 0</div>
+        <div id="packetsPerSecond" style="margin-left: 2px">Packets Per Second: 0 @ 0 mbps</div>
+    </div>
+
+    <script src="three.js"></script>
+    <script src="scene.js"></script>
+</body>
+
+</html>

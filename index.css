@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+#gui {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    color: antiquewhite;
+}
